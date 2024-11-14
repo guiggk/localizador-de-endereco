@@ -1,0 +1,89 @@
+/* Centraliza o conteúdo na página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #646262; /* Cor de fundo suave */
+    display: flex; /* Usado para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margem padrão */
+}
+
+/* Define o estilo do container */
+.container {
+    background-color: white; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Largura fixa */
+    text-align: center; /* Alinha o texto ao centro */
+}
+/* Define o estilos dos blocos inputs*/
+.bloco_1{
+    background-color: #f6f7f6;
+    border: black solid;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+.bloco_2{
+    background-color: #f6f7f6;
+    border: black solid;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+.bloco_3{
+    background-color: #f6f7f6;
+    border: black solid;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+.bloco_4{
+    background-color: #f6f7f6;
+    border: black solid;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+/* Estilo para o título */
+h2 {
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para o formulário */
+form {
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Coloca os itens em coluna */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os campos de input */
+input {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px; /* Espaçamento interno */
+    background-color: #28a745; /* Cor verde */
+    color: white; /* Texto branco */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Define o cursor como "pointer" */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #218838; /* Cor mais escura no hover */
+}
+
+/* Estilo para os resultados */
+#resultado {
+    margin-top: 20px; /* Espaçamento superior */
+    text-align: left; /* Alinha o texto à esquerda */
+}

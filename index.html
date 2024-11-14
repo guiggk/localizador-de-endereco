@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta de CEP</h2>
+        <form id="cepForm">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" maxlength="8" required>
+            
+            <button type="button" onclick="consultarCep()">Consultar</button> <!-- Botão que chama a função JS -->
+        </form>
+
+        <!-- Campos para exibir os resultados -->
+        <div id="resultado">
+            <div class="bloco_1">
+                <p><strong>Rua:</strong> <span id="rua"></span></p>
+            </div>
+            <div class="bloco_2">
+                <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            </div>
+            <div class="bloco_3">
+                <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+            </div>
+            <div class="bloco_4">
+                <p><strong>Estado:</strong> <span id="estado"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
